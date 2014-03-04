@@ -9,11 +9,11 @@ use <vwheel_single_bearing_b17001_rev_2.scad>
 use <gt2-carriage.scad>
 
 // set to 1 if using makerslide and set to 0 if using 2040 or vslot
-use_makerslide= 1;
+use_makerslide= 0;
 
 thick= 4;
 height= 45;
-extrusion_width= 40;
+extrusion_width= 20;
 extrusion_depth= 20;
 base_cylinder_r= 72;
 arm_length= 60;
